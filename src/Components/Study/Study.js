@@ -21,7 +21,7 @@ function Study() {
             };
         }
         fetchData();
-    }, []);
+    }, [deckId]);
 
     function nextCard(index, total) {
         console.log(index);
@@ -88,6 +88,7 @@ function Study() {
                             </div>
                         );
                     }
+                    return null;
                 })}
             </div>
         );
