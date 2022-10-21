@@ -9,6 +9,11 @@
       "name": "React Router",
       "description": "React Router is a collection of navigational components that compose declaratively with your application.",
       "id": 2
+    },
+    {
+      "name": "Hello World",
+      "description": "In as many languages as I can recall in one sitting",
+      "id": 3
     }
   ],
   "cards": [
@@ -48,6 +53,24 @@
       "back": "b",
       "deckId": 1,
       "id": 7
+    },
+    {
+      "front": "print(\"Hello World\")\n\nWhich language contains this syntax?",
+      "back": "Python",
+      "deckId": 3,
+      "id": 8
+    },
+    {
+      "front": "console.log(\"Hello World\")\n\nWhich language contains this syntax?",
+      "back": "JavaScript",
+      "deckId": 3,
+      "id": 9
+    },
+    {
+      "front": "println!(\"Hello World\");\n\nWhich language supports this syntax?",
+      "back": "Rust",
+      "deckId": 3,
+      "id": 10
     }
   ]
 }
