@@ -57,20 +57,20 @@ function Home() {
                                     {`${deck.description}`}
                                 </div>
                                 <Link
-                                    className="btn btn-secondary mx-1"
+                                    className="btn btn-secondary m-1"
                                     to={`/decks/${deck.id}`}
                                 >
                                     View
                                 </Link>
                                 <Link
-                                    className="btn btn-primary mx-1"
+                                    className="btn btn-primary m-1"
                                     to={`/decks/${deck.id}/study`}
                                 >
                                     Study
                                 </Link>
                                 <button
                                     type="button"
-                                    className="btn btn-danger mx-1"
+                                    className="btn btn-danger m-1"
                                     onClick={() => handleDelete(deck)}
                                 >
                                     Delete
